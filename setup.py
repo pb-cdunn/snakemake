@@ -47,7 +47,7 @@ setup(
     },
     package_data={'': ['*.css', '*.sh', '*.html']},
     install_requires=['wrapt', 'requests', 'ratelimiter', 'pyyaml',
-                      'configargparse', 'appdirs', 'datrie', 'jsonschema',
+                      'configargparse', 'appdirs', 'datrie-2019', 'jsonschema',
                       'docutils', 'gitpython'],
     extras_require={"reports": ['jinja2', 'networkx']},
     classifiers=
